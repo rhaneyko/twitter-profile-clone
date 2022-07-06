@@ -9,10 +9,12 @@ export default createGlobalStyle`
   }
   body{
     width: 100%;
+    height: 100%;
+
     background-color: ${props => props.theme.colors.primary};
     align-items: center;
     justify-content: center;
     
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
   }
 `
