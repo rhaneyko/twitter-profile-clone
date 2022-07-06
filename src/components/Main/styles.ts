@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 
 export const Container = styled.div`
@@ -75,19 +75,19 @@ export const BottomMenu = styled.div`
   }
 `;
 
-const iconCSS = css`
-  width: 31px;
-  height: 31px;
+// const iconCSS = css`
+//   width: 31px;
+//   height: 31px;
 
-  cursor: pointer;
+//   cursor: pointer;
 
-  fill: ${props => props.theme.colors.gray};
+//   fill: ${props => props.theme.colors.gray};
 
-  &:hover,
-  &.active {
-    fill: ${props => props.theme.colors.twitter};
-  }
-`;
+//   &:hover,
+//   &.active {
+//     fill: ${props => props.theme.colors.twitter};
+//   }
+// `;
 
 // export const HomeIcon = styled(Home)`
 //   ${iconCSS}
