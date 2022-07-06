@@ -57,6 +57,14 @@ export const MenuButton = styled.button`
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  
+  /* width: 230px;
+  height: 60px;
+
+  border: none;
+
+  background: ${props => props.theme.colors.primary};
+  color: ${props => props.theme.colors.white}; */
 
   > span {
     display: none;
@@ -102,7 +110,6 @@ export const MenuButton = styled.button`
   }
 
   cursor: pointer;
-  border-radius: 25px;
 
   &:hover {
     background: ${props => props.theme.colors.twitterDarkHover};
