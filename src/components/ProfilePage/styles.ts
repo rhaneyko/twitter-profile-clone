@@ -120,6 +120,9 @@ export const EditButton = styled(Button)`
   top: 2vw;
   right: 7px;
 
+  background-color: ${props => props.theme.colors.twitterDarkHover};
+  color: ${props => props.theme.colors.twitter};
+
   padding: 4px 16px;
   font-size: 13px;
 

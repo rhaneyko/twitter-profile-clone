@@ -29,7 +29,7 @@ export const Header = styled.div`
 
   > button {
     padding: 8px;
-    border-radius: 50%;
+    border: none;
 
     outline: 0;
     cursor: pointer;

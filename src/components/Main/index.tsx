@@ -22,7 +22,10 @@ const Main: React.FC = () => {
     <Container>
       <Header>
         <button>
-          <AiOutlineArrowLeft /> 
+          <AiOutlineArrowLeft 
+          size={24}
+          color='#33A1F2'
+          /> 
         </button>
 
         <ProfileInfo>

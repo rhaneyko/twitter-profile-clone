@@ -58,13 +58,13 @@ export const MenuButton = styled.button`
   align-items: center;
   flex-shrink: 0;
   
-  /* width: 230px;
+  width: 230px;
   height: 60px;
 
   border: none;
 
   background: ${props => props.theme.colors.primary};
-  color: ${props => props.theme.colors.white}; */
+  color: ${props => props.theme.colors.white};
 
   > span {
     display: none;
@@ -195,7 +195,7 @@ export const ProfileData = styled.div`
 
      &:hover {
        > path {
-         color: var(--like);
+         color: ${props => props.theme.colors.like};
        }
      }
    }
