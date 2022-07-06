@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components"; 
+import styled from "styled-components"; 
 // import { LocationOn, Cake } from '../../styles/Icons'
 import Button from '../Button'
 
@@ -89,12 +89,12 @@ export const ProfileData = styled.div`
   }
 `;
 
-const iconCSS = css`
-   width: 20px;
-   height: 20px;
+// const iconCSS = css`
+//    width: 20px;
+//    height: 20px;
 
-   color: ${props => props.theme.colors.gray};
-`
+//    color: ${props => props.theme.colors.gray};
+// `
 
 // export const LocationIcon = styled(LocationOn)`
 // ${iconCSS}`;

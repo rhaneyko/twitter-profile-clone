@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 // import { Chat, Rocketseat, Favorite } from '../../styles/Icons'
 
@@ -155,10 +155,10 @@ export const Status = styled.div`
 
 `;
 
-const iconCSS = css`
-   width: 19px;
-   height: 19px;
-`;
+// const iconCSS = css`
+//    width: 19px;
+//    height: 19px;
+// `;
 
 // export const CommentIcon = styled(Chat)`
 // ${iconCSS}
