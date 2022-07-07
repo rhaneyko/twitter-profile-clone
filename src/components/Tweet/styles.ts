@@ -1,7 +1,16 @@
 import styled from 'styled-components';
 
-// import { Chat, Rocketseat, Favorite } from '../../styles/Icons'
+import { css } from 'styled-components';
+ 
+import {
+  FaRegComment,
+  FaRetweet,
+} from 'react-icons/fa'
 
+import {
+  AiOutlineTwitter,
+  AiFillHeart,
+} from 'react-icons/ai'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -17,6 +26,7 @@ export const Retweeted = styled.div`
   display: flex;
   align-items: center;
 
+
   font-size: 13px;
   color: ${props => props.theme.colors.gray};
 
@@ -24,13 +34,13 @@ export const Retweeted = styled.div`
     fill: ${props => props.theme.colors.gray}
   }
 `;
-// export const RocketseatIcon = styled(Rocketseat)`
-//   width: 16px;
-//   height: 16px;
+ export const TwitterIcon = styled(AiOutlineTwitter)`
+   width: 16px;
+   height: 16px;
 
-//   margin-left: 35px;
-//   margin-right: 9px;
-// `;
+   margin-left: 35px;
+   margin-right: 9px;
+ `;
 export const Body = styled.div`
   display: flex;
   margin-top: 3px;
@@ -64,10 +74,12 @@ export const Header = styled.div`
   white-space: nowrap;
 
   >strong{
+    color: ${props => props.theme.colors.white};
     margin-right: 5px;
   }
   >span, time{
       color: ${props => props.theme.colors.gray};
+      
     }
   >strong, span{
     white-space: nowrap;
@@ -86,6 +98,7 @@ export const Dot = styled.div`
 export const Description = styled.div`
   font-size: 14px;
   margin-top: 4px;
+  color: ${props => props.theme.colors.white};
 `;
 
 export const ImageContent = styled.div`
@@ -155,22 +168,22 @@ export const Status = styled.div`
 
 `;
 
-// const iconCSS = css`
-//    width: 19px;
-//    height: 19px;
-// `;
+ const iconCSS = css`
+    width: 19px;
+    height: 19px;
+ `;
 
-// export const CommentIcon = styled(Chat)`
-// ${iconCSS}
+ export const CommentIcon = styled(FaRegComment)`
+ ${iconCSS}
 
-// `;
+ `;
 
-// export const RetweetIcon = styled(Rocketseat)`
-// ${iconCSS}
+ export const RetweetIcon = styled(FaRetweet)`
+ ${iconCSS}
 
-// `;
+ `;
 
-// export const LikeIcon = styled(Favorite)`
-// ${iconCSS}
+ export const LikeIcon = styled(AiFillHeart)`
+ ${iconCSS}
 
-// `;
+ `;

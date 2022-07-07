@@ -17,7 +17,7 @@ export const Header = styled.div`
   z-index: 2;
   position: sticky;
   top: 0;
-  background: var(--primary);
+  background: ${props => props.theme.colors.primary};
 
   display: flex;
   align-items: center;
@@ -48,6 +48,7 @@ export const ProfileInfo = styled.div`
 
   > strong {
     font-size: 19px;
+    color: ${props => props.theme.colors.white};
   }
   > span {
     font-size: 15px;

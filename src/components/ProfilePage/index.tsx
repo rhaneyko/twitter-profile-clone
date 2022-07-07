@@ -6,16 +6,17 @@ import { Container,
    Banner, 
    Avatar, 
    ProfileData,
-     Followage,
-     EditButton  } from './styles';
+   Informations,
+   UserName,
+   AtSign,
+   LocationData,
+   BirthDate,
+   Followage,
+   EditButton,
+   LocationIcon,
+   CakeIcon,
+      } from './styles';
 
-import {
-  BiCake
-} from 'react-icons/bi'
-
-import {
-  GoLocation
-} from 'react-icons/go'
 
 const ProfilePage: React.FC = () => {
   return(
@@ -26,36 +27,36 @@ const ProfilePage: React.FC = () => {
 
       <ProfileData>
         <EditButton outlined>Editar Perfil</EditButton>
-
-        <h1>Rhaneyko Honorio</h1>
-        <h2>@rhaneyko</h2>
-
-        <p>
-          Developer at <p>Unimed Cuiabá</p>
-        </p>
-
-        <ul>
-          <li>
-            <GoLocation />
+       <Informations>
+        <UserName>Rhaneyko Honorio</UserName>
+        <AtSign>@rhaneyko</AtSign>
+       
+         <p>Developer at <a href=''>Unimed Cuiabá</a></p>
+          <LocationData>
+            <LocationIcon 
+              size={15}
+              color='#FFF'
+            />
             Cuiabá, Brasil
-          </li>
-          <li>
-            <BiCake/>
-
-             Nascido(a) em 22 de abril de 2003
-          </li>
-        </ul>
+          </LocationData>
+          <BirthDate>
+            <CakeIcon
+              size={15}
+              color='#FFF'
+            />
+            Nascido(a) em 22 de abril de 2003
+         </BirthDate>
+       </Informations>
 
         <Followage>
           <span>
-             <strong>210 </strong>seguindo
+             <strong>321 </strong>seguindo
           </span>
           <span>
-            <strong>500 </strong>seguidores
+            <strong>517 </strong>seguidores
           </span>
         </Followage>
       </ProfileData>
-
       <Feed/>
     </Container>
       

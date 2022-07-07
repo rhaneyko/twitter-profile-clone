@@ -3,6 +3,7 @@ import React from 'react';
 import {
   Container,
   Retweeted,
+  TwitterIcon,
   Body,
   Avatar,
   Content,
@@ -12,23 +13,16 @@ import {
   ImageContent,
   Icons,
   Status,
+  CommentIcon,
+  RetweetIcon,
+  LikeIcon,
 } from './styles';
-
-import {
-  FaRegComment,
-  FaRetweet,
-} from 'react-icons/fa'
-
-import {
-  AiOutlineTwitter,
-  AiFillHeart,
-} from 'react-icons/ai'
 
 const Tweet: React.FC = () => {
   return (
     <Container>
       <Retweeted>
-        <AiOutlineTwitter />
+        <TwitterIcon />
         Você retweetou
       </Retweeted>
 
@@ -42,23 +36,22 @@ const Tweet: React.FC = () => {
             <Dot />
             <time>27 de jun</time>
           </Header>
-
-          {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
+          
           <Description>Foguete não tem ré 🚀</Description>
 
           <ImageContent />
 
           <Icons>
             <Status>
-              <FaRegComment />
+              <CommentIcon />
               18
             </Status>
             <Status>
-              <FaRetweet />
+              <RetweetIcon />
               18
             </Status>
             <Status>
-              <AiFillHeart />
+              <LikeIcon />
               999
             </Status>
           </Icons>

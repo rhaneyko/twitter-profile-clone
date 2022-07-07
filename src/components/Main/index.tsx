@@ -36,7 +36,7 @@ const Main: React.FC = () => {
       <ProfilePage />
 
       <BottomMenu>
-        <AiOutlineHome className="active" />
+        <AiOutlineHome className='active' />
         <AiOutlineSearch />
         <AiOutlineBell />
         <AiOutlineMail /> 
