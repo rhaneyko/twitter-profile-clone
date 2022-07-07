@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import theme from '../../styles/theme/theme';
 
 export const Container = styled.div`
   display: flex;
@@ -24,6 +25,8 @@ export const Item = styled.div`
 `;
 
 export const Title = styled.span`
+  color: ${props => props.theme.colors.white};
+
   font-weight: bold;
   font-size: 19px;
 `;

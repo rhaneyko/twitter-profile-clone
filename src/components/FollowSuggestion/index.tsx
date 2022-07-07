@@ -12,7 +12,6 @@ const FollowSuggestion: React.FC<Props> = ({ name, nickname }) => {
     <Container>
       <div>
         <Avatar />
-
         <Info>
           <strong>{name}</strong>
           <span>{nickname}</span>

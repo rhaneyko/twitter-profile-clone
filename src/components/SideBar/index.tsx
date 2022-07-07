@@ -9,46 +9,33 @@ import {
   Container,
   SearchWrapper,
   SearchInput,
+  SearchIcon,
   Body,
 } from './styles';
 
-  import {
-    AiOutlineSearch
-  } from 'react-icons/ai';
 
 const SideBar: React.FC = () => {
   return (
     <Container>
       <SearchWrapper>
-        <SearchInput placeholder="Buscar no Twitter" />
-        <AiOutlineSearch />
+        <SearchInput placeholder='Buscar no Twitter' />
+        <SearchIcon />
       </SearchWrapper>
 
       <StickyBox>
         <Body>
           <List
-            title="Talvez você curta"
+            title='Talvez você curta'
             elements={[
               <FollowSuggestion
-                name="Luiz Batanero"
-                nickname="@luizbatanero"
-              />,
-              <FollowSuggestion name="Luke Morales" nickname="@lukemorales" />,
-              <FollowSuggestion
-                name="Camila Magalhães"
-                nickname="@camilaamgl"
+                name='Rhaneyko Honorio'
+                nickname='@rhaneyko'
               />,
             ]}
           />
           <List
-            title="O que está acontecendo"
+            title='O que está acontecendo'
             elements={[
-              <News />,
-              <News />,
-              <News />,
-              <News />,
-              <News />,
-              <News />,
               <News />,
               <News />,
               <News />,

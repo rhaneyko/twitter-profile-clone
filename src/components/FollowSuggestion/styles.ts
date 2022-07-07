@@ -25,15 +25,23 @@ export const Info = styled.div`
   display: flex;
   flex-direction: column;
 
-  > strong {
+  strong {
+    color: ${props => props.theme.colors.white};
+
     font-size: 14px;
+    font-weight: bold;
   }
-  > span {
-    font-size: 14px;
+
+  span {
     color: ${props => props.theme.colors.gray};
+
+    font-size: 14px;
   }
 `;
 
 export const FollowButton = styled(Button)`
+  background-color: ${props => props.theme.colors.primary};
+  color: ${props => props.theme.colors.twitter};
+  
   padding: 6px 17px;
 `;

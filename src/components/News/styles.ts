@@ -6,9 +6,13 @@ export const Container = styled.div`
 
   font-size: 14px;
 
-  > span {
+  span {
     color: ${props => props.theme.colors.gray};
 
     margin-bottom: 3px;
+  }
+
+  strong{
+    color: ${props => props.theme.colors.white};
   }
 `;

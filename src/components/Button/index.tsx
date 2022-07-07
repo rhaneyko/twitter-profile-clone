@@ -19,7 +19,7 @@ export default styled.button<Props>`
   outline: 0;
 
   &:hover {
-    background: ${(props) => props.theme.colors.twitterDarkHover};
+    background: ${(props) => props.theme.colors.twitterLightHover};
         
   }
 `;
