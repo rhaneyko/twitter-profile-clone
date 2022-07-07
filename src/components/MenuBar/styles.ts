@@ -58,7 +58,6 @@ export const MenuButton = styled.button`
   align-items: center;
   flex-shrink: 0;
   
-  width: 230px;
   height: 60px;
 
   border: none;

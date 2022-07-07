@@ -5,41 +5,36 @@ import ProfilePage from '../ProfilePage';
 import {
   Container,
   Header,
+  ArrowLefIcon,
   ProfileInfo,
+  HomeIcon,
+  BellIcon,
+  EmailIcon,
+  SearchIcon,
   BottomMenu,
 } from './styles';
 
-import {
-  AiOutlineArrowLeft,
-  AiOutlineHome,
-  AiOutlineBell,
-  AiOutlineMail,
-  AiOutlineSearch
-} from 'react-icons/ai';
 
 const Main: React.FC = () => {
   return (
     <Container>
       <Header>
         <button>
-          <AiOutlineArrowLeft 
-          size={24}
-          color='#33A1F2'
-          /> 
+          <ArrowLefIcon/> 
         </button>
 
         <ProfileInfo>
           <strong>Rhaneyko Honorio</strong>
-          <span>612 Tweets</span>
+          <span>42.2K Tweets</span>
         </ProfileInfo>
       </Header>
       <ProfilePage />
 
       <BottomMenu>
-        <AiOutlineHome className='active' />
-        <AiOutlineSearch />
-        <AiOutlineBell />
-        <AiOutlineMail /> 
+        <HomeIcon className='active' />
+        <SearchIcon />
+        <BellIcon />
+        <EmailIcon /> 
       </BottomMenu>
     </Container>
   );

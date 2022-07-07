@@ -1,4 +1,11 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
+import {
+  AiOutlineArrowLeft,
+  AiOutlineHome,
+  AiOutlineBell,
+  AiOutlineMail,
+  AiOutlineSearch
+} from 'react-icons/ai';
 
 
 export const Container = styled.div`
@@ -34,10 +41,19 @@ export const Header = styled.div`
     outline: 0;
     cursor: pointer;
 
+    background: none;
+
     &:hover {
       background: ${props => props.theme.colors.twitterDarkHover};
     }
   }
+`;
+
+export const ArrowLefIcon = styled(AiOutlineArrowLeft)`
+  width: 24px;
+  height: 24px;
+
+  fill: ${props => props.theme.colors.twitter};
 `;
 
 export const ProfileInfo = styled.div`
@@ -55,6 +71,8 @@ export const ProfileInfo = styled.div`
     color: ${props => props.theme.colors.gray};
   }
 `;
+
+
 
 export const BottomMenu = styled.div`
   position: fixed;
@@ -76,29 +94,29 @@ export const BottomMenu = styled.div`
   }
 `;
 
-// const iconCSS = css`
-//   width: 31px;
-//   height: 31px;
+ const iconCSS = css`
+   width: 31px;
+   height: 31px;
 
-//   cursor: pointer;
+   cursor: pointer;
 
-//   fill: ${props => props.theme.colors.gray};
+   fill: ${props => props.theme.colors.gray};
 
-//   &:hover,
-//   &.active {
-//     fill: ${props => props.theme.colors.twitter};
-//   }
-// `;
+   &:hover,
+   &.active {
+     fill: ${props => props.theme.colors.twitter};
+   }
+ `;
 
-// export const HomeIcon = styled(Home)`
-//   ${iconCSS}
-// `;
-// export const SearchIcon = styled(Search)`
-//   ${iconCSS}
-// `;
-// export const BellIcon = styled(Notifications)`
-//   ${iconCSS}
-// `;
-// export const EmailIcon = styled(Email)`
-//   ${iconCSS}
-// `;
+ export const HomeIcon = styled(AiOutlineHome)`
+   ${iconCSS}
+ `;
+ export const SearchIcon = styled(AiOutlineSearch)`
+   ${iconCSS}
+ `;
+ export const BellIcon = styled(AiOutlineBell)`
+   ${iconCSS}
+ `;
+ export const EmailIcon = styled(AiOutlineMail)`
+   ${iconCSS}
+ `;
