@@ -30,10 +30,14 @@ export const SearchWrapper = styled.div`
 export const SearchInput = styled.input`
   width: 100%;
   height: 39px;
-  font-size: 14px;
+
   padding: 0 10px 0 52px;
+  
   border-radius: 19.5px;
+  border: 1px solid ${props => props.theme.colors.primary};
   background: ${props => props.theme.colors.search};
+
+  font-size: 14px;
 
   &::placeholder {
     color: ${props => props.theme.colors.gray};
