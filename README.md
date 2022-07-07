@@ -5,7 +5,7 @@
 
 ## 🎨 Layout
 
-![image](https://firebasestorage.googleapis.com/v0/b/twitter-clone-546f0.appspot.com/o/twitterCloneScreenshot.jpg?alt=media&token=14dc64be-7938-4c70-a009-9bfae7c11c9e)
+![image](https://firebasestorage.googleapis.com/v0/b/twitter-clone-546f0.appspot.com/o/twitterProfileCloneScreenshot.jpg?alt=media&token=456dbba4-2e48-4d6a-a372-9ec358f23368)
 
 ## Tecnologias
 
