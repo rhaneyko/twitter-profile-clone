@@ -1,7 +1,7 @@
 # Twiiter Clone 
 
 ## Sobre o Projeto
-  Esse Portfólio foi criado com React. Usei JavaScript, React, TypeScript e Styled Components.
+  Projeto criado com React. Desenvolvido com TypeScript e Styled Components. Feito para simular a página de perfil do Twitter.
 
 ## 🎨 Layout
 
@@ -20,7 +20,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Esse projeto foi elaborado para web e mobile.
 Para acessar basta clicar no link abaixo:
 
-https://rhaneykohonoriosite.netlify.app/
+https://twitterprofileclone.netlify.app/
 
 
 ## Licença

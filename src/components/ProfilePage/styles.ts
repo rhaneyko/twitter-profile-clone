@@ -141,4 +141,9 @@ export const EditButton = styled(Button)`
     padding: 10px 19px;
     font-size: 15px;
   }
+
+  &:hover{
+    background-color: ${props => props.theme.colors.twitterDarkHover};
+
+  }
 `;
