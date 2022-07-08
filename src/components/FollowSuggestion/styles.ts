@@ -45,6 +45,8 @@ export const FollowButton = styled.button`
   
   padding: 6px 17px;
 
+  border-radius: 25px;
+  border: 1px solid ${props => props.theme.colors.twitter};
   :hover{
     background-color: ${props => props.theme.colors.twitterDarkHover};
   }

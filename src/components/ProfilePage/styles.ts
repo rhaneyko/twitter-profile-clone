@@ -131,9 +131,10 @@ export const EditButton = styled.button`
   background-color: ${props => props.theme.colors.twitterDarkHover};
   color: ${props => props.theme.colors.twitter};
 
-  border-radius: 20px;
-  border: 1px solid ${props => props.theme.colors.twitter};
   padding: 4px 16px;
+  
+  border-radius: 25px;
+  border: 1px solid ${props => props.theme.colors.twitter};
   font-size: 13px;
 
   @media (min-width: 320px){
