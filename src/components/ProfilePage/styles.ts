@@ -1,7 +1,5 @@
 import styled, {css} from 'styled-components'; 
 
-import Button from '../Button'
-
 import {
   BiCake
 } from 'react-icons/bi'
@@ -125,7 +123,7 @@ export const Followage = styled.div`
 
 `;
 
-export const EditButton = styled(Button)`
+export const EditButton = styled.button`
   position: absolute;
   top: 2vw;
   right: 7px;
@@ -133,6 +131,8 @@ export const EditButton = styled(Button)`
   background-color: ${props => props.theme.colors.twitterDarkHover};
   color: ${props => props.theme.colors.twitter};
 
+  border-radius: 20px;
+  border: 1px solid ${props => props.theme.colors.twitter};
   padding: 4px 16px;
   font-size: 13px;
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import Button from '../Button';
+
 
 export const Container = styled.div`
   display: flex;
@@ -39,7 +39,7 @@ export const Info = styled.div`
   }
 `;
 
-export const FollowButton = styled(Button)`
+export const FollowButton = styled.button`
   background-color: ${props => props.theme.colors.primary};
   color: ${props => props.theme.colors.twitter};
   

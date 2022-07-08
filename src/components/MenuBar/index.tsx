@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Button from '../Button';
-
 import {
   Container,
   Topside,
@@ -13,6 +11,7 @@ import {
   FavoriteIcon,
   ProfileIcon,
   ExitIcon,
+  TweetButton,
   Botside,
   Avatar,
   ProfileData,
@@ -49,9 +48,9 @@ const MenuBar: React.FC = () => {
           <span>Perfil</span>
         </MenuButton>
 
-        <Button>
+        <TweetButton>
           <span>Tweetar</span>
-        </Button>
+        </TweetButton>
       </Topside>
 
       <Botside>
